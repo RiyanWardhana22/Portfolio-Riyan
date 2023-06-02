@@ -50,8 +50,8 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 // Type Js
 const type = new Typed(".multiple-text", {
   strings: ["Junior Web Developer"],
-  typeSpeed: 100,
   backSpeed: 100,
+  typeSpeed: 100,
   backDelay: 1000,
   loop: true,
 });
