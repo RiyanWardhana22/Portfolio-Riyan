@@ -48,10 +48,10 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 // Type Js
-const type = new Typed(".multiple-text", {
-  strings: ["Junior Web Developer"],
-  backSpeed: 100,
-  typeSpeed: 100,
-  backDelay: 1000,
+const typed = new Typed(".multiple-text", {
+  strings: ["Wardhana"],
   loop: true,
+  backSpeed: 100,
+  typeSpeed: 90,
+  backDelay: 1000,
 });
