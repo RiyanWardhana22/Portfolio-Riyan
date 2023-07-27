@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio Riyan</title>
+    <link rel="icon" href="./img/Logo Riyan.png" />
 
     <!-- Box Icons Start -->
     <link
@@ -33,7 +34,7 @@
         <a href="#home">Beranda</a>
         <a href="#about">Tentang Saya</a>
         <a href="#services">Bahasa</a>
-        <a href="#portfolio">Karya</a>
+        <a href="#portfolio">Projek</a>
         <a href="#contact">Kontak</a>
       </nav>
     </header>
@@ -42,11 +43,12 @@
     <!-- Home Section Design Start-->
     <section class="home" id="home">
       <div class="home-content">
-        <h3>Hallo, Saya</h3>
+        <h3>Haloo 👋, Saya</h3>
         <h1>Riyan <span class="multiple-text"></span></h1>
         <h3>Saya Seorang <span>Junior Web Developer</span></h3>
         <p>
-          "Jangan berhenti belajar sampai kamu merasa bangga dengan hasilnya."
+          "Jadilah versi terbaik dari dirimu sendiri, bukan versi terbaik dari
+          orang lain" - Judy Garland
         </p>
         <div class="social-media">
           <a href="https://www.youtube.com/channel/UCblHtxOO4PKSm7a-Ez1gqEA"
@@ -58,11 +60,11 @@
           <a href="https://web.facebook.com/riyan.wardhana.3"
             ><i class="bx bxl-facebook-circle"></i
           ></a>
-          <a href="https://discord.gg/E67avsV"
-            ><i class="bx bxl-discord-alt"></i
+          <a href="https://wa.me/+6281260426431/?text=Hai"
+            ><i class="bx bxl-whatsapp"></i
           ></a>
         </div>
-        <a href="#portfolio" class="btn">Karya Saya</a>
+        <a href="#portfolio" class="btn">Projek Saya</a>
       </div>
 
       <div class="home-img">
@@ -79,14 +81,14 @@
 
       <div class="about-content">
         <h2 class="heading">Tentang <span>Saya</span></h2>
-        <h3>Junior Web Developer</h3>
+        <!-- <h3>Junior Web Developer</h3> -->
         <p>
           Riyan adalah lulusan dari SMK Tritech Informatika Medan. Memiliki
           keterampilan dalam membuat sebuah website pribadi dengan berbagai
           fitur didalamnya, saat ini saya sedang tertarik masuk kedalam dunia
           Web Developer untuk mengembangkan keterampilan.
         </p>
-        <a href="#services" class="btn">Lebih Lanjut</a>
+        <a href="https://saweria.co/RiyanWrdhna" class="tombol">Support Saya</a>
       </div>
     </section>
     <!-- About Section Design End -->
@@ -97,27 +99,31 @@
 
       <div class="services-container">
         <div class="services-box">
-          <i class="bx bxl-html5"></i>
-          <h3>HTML</h3>
+          <i class="bx bxl-php"></i>
+          <h3>PHP</h3>
           <p>
-            HyperText Markup Language adalah bahasa markah standar untuk dokumen
-            yang dirancang untuk ditampilkan di peramban internet
+            PHP: Hypertext Preprocessor adalah bahasa skrip dengan fungsi umum
+            yang terutama digunakan untuk pengembangan web. Bahasa ini awalnya
+            dibuat oleh seorang pemrogram Denmark-Kanada Rasmus Lerdorf pada
+            tahun 1994.
           </p>
-          <a href="https://en.wikipedia.org/wiki/HTML" class="btn"
+          <a href="https://id.wikipedia.org/wiki/PHP" class="btn"
             >Lebih Lanjut</a
           >
         </div>
       </div>
       <div class="services-container">
         <div class="services-box">
-          <i class="bx bxl-css3"></i>
-          <h3>CSS</h3>
+          <i class="bx bxl-python"></i>
+          <h3>Python</h3>
           <p>
-            Cascading Style Sheet merupakan aturan untuk mengatur beberapa
-            komponen dalam sebuah web sehingga akan lebih terstruktur dan
-            seragam.
+            Python adalah bahasa pemrograman tujuan umum yang ditafsirkan,
+            tingkat tinggi. Dibuat oleh Guido van Rossum dan pertama kali
+            dirilis pada tahun 1991
           </p>
-          <a href="https://en.wikipedia.org/wiki/CSS" class="btn"
+          <a
+            href="https://id.wikipedia.org/wiki/Python_(bahasa_pemrograman)"
+            class="btn"
             >Lebih Lanjut</a
           >
         </div>
@@ -142,11 +148,11 @@
 
     <!-- Karya Section Start -->
     <section class="portfolio" id="portfolio">
-      <h2 class="heading">Karya <span>Saya</span></h2>
+      <h2 class="heading">Projek <span>Saya</span></h2>
 
       <div class="portfolio-container">
         <div class="portfolio-box">
-          <img src="https://i.postimg.cc/FK0QgBGN/Projek1-1.png" alt="" />
+          <img src="./img/Waroeng Riyan 2.png" alt="" />
           <div class="portfolio-layer">
             <h4>Website <span>Waroeng Riyan</span></h4>
             <p>
@@ -154,7 +160,7 @@
               tentunya memiliki fitur yang lumayan responsive dan keren
               pastinya.
             </p>
-            <a href="https://riyanwardhana22.github.io/WaroengRiyan/"
+            <a href="https://waroengriyan.riyanwardhana.repl.co/"
               ><i class="bx bx-link-external"></i
             ></a>
           </div>
@@ -183,7 +189,8 @@
           rows="10"
           placeholder="Isi Pesan"
         ></textarea>
-        <input type="submit" value="Kirim Pesan" class="btn" />
+        <!-- <button type="button" id="btn">Kirim Pesan</button> -->
+        <a href="#" class="btn" id="btn">Kirim Pesan</a>
       </form>
     </section>
     <!-- Contact Section End -->
@@ -191,7 +198,13 @@
     <!-- Footer Section Start -->
     <footer class="footer">
       <div class="footer-text">
-        <p>Dibuat Oleh Riyan Wardhana | &copy; 2023</p>
+        <p>
+          Dibuat Oleh
+          <a href="https://wa.me/+6281260426431/?text=Hai"
+            ><span><b>Riyan Wardhana</b></span>
+          </a>
+          | &copy; 2023
+        </p>
       </div>
 
       <div class="footer-iconTop">
@@ -205,6 +218,9 @@
 
     <!-- Type Js -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="dist/sweetalert2.all.min.js"></script>
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
